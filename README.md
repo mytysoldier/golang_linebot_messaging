@@ -1,0 +1,2 @@
+# golang_linebot_messaging
+Web画面上から入力したメッセージを、LINEbotから個人のLINEに通知する簡易お試しアプリ
