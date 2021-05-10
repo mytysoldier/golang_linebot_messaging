@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sending LINEbot Message</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <script src="/resources/js/main.js"></script>
+    </head>
+    <body>
+        <form id="form_message" method="post" action="/send">
+            <p>送信メッセージ：</p>
+            <textarea id="message" name="message" rows="4" cols="40" required></textarea><br>
+            <button id="send" type="button">メッセージ送信</button>
+            <button id="clear" type="button">クリア</button>
+        </form>
+    </body>
+</html>
